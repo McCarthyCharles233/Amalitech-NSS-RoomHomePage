@@ -20,8 +20,34 @@
     margin-right: 20px;
 }
 
+.slider{
+    display: flex;
+}
+
 .image-slider{
     position: relative;
     z-index: 1;
     top: 0;
+}
+
+.button{
+    background-color: black;
+    width: max-content;
+    height: max-content;
+    padding: 10px;
+}
+
+.back, .forward{
+    padding: 10px;
+    cursor: pointer;
+    
+}
+
+@media screen, (max-width = 1220px) {
+    .button{
+        position: relative;
+        top: 464px;
+    }
+
+    
 }

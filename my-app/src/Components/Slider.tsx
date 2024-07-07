@@ -1,14 +1,32 @@
-import React from "react";
+import React, { useState } from 'react';
 import image1 from '../Images/image1.png';
+import image2 from '../Images/image2.png';
+import image3 from '../Images/image3.png';
+import SliderButton from './SliderButton';
 
 
+const images = [image1, image2, image3];
 
 const Slider: React.FC = () => {
-    return(
-        <div className="image-slider">
-            <img src={image1} alt="Slide 1" />
-        </div>
-    );
-}
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const goToPreviousSlide = () => {
+    setCurrentIndex((prevIndex) => (prevIndex === 0 ? images.length - 1 : prevIndex - 1));
+  };
+
+  const goToNextSlide = () => {
+    setCurrentIndex((prevIndex) => (prevIndex === images.length - 1 ? 0 : prevIndex + 1));
+  };
+
+  return (
+    <div className="slider">
+      <div className="image-slider">
+        <img src={images[currentIndex]} alt={`Slide ${currentIndex + 1}`} />
+      </div>
+      <SliderButton direction="prev" onClick={goToPreviousSlide} />
+      <SliderButton direction="next" onClick={goToNextSlide} />
+    </div>
+  );
+};
 
 export default Slider;
