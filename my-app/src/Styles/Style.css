@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+.header{
+    font-family: "League Spartan", sans-serif;
+    position: absolute;
+    margin: 50px;
+    z-index: 10;
+}
+
+.header a{
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 500;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+.logo a{
+    font-size: xx-large;
+    margin-right: 20px;
+}
+
+.image-slider{
+    position: relative;
+    z-index: 1;
+    top: 0;
+}
