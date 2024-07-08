@@ -1,8 +1,6 @@
 import React from "react";
 import goto from '../Images/goto.png';
 
-
-
 const HeroSection: React.FC = () => {
     return(
         <div className="hero">
