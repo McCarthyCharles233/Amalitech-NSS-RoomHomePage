@@ -3,6 +3,7 @@ import image1 from '../Images/image1.png';
 import image2 from '../Images/image2.png';
 import image3 from '../Images/image3.png';
 import SliderButton from './SliderButton';
+import HeroSection from './HeroSection';
 
 
 const images = [image1, image2, image3];
@@ -25,6 +26,7 @@ const Slider: React.FC = () => {
       </div>
       <SliderButton direction="prev" onClick={goToPreviousSlide} />
       <SliderButton direction="next" onClick={goToNextSlide} />
+      <HeroSection />
     </div>
   );
 };
