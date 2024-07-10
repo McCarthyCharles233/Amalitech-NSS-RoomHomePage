@@ -104,8 +104,49 @@
     font-size: 16px;
     padding: 30px;
 }
-.dropdwon, .hamburger{
+
+.hamburger{
     display: none;
+}
+
+.dropdown {
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 10;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+  
+.dropdown.show {
+    display: flex;
+    
+}
+  
+.dropdown-content {
+    position: fixed;
+    top: 0%;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px;
+}
+  
+.dropdown-content a {
+    color: #333;
+    text-decoration: none;
+    
+   
+}
+  
+.close {
+    cursor: pointer;
 }
 
 @media (max-width: 768px) {
@@ -113,6 +154,10 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+    }
+
+    .header{
+        margin: 0;
     }
 
     .slider{
@@ -131,17 +176,18 @@
     .logo{
         position: absolute;
         top: 0.5rem;
-        margin-left: 16rem;
+        margin-left: 19rem;
+        margin-top: 2rem;
         font-size: 3rem;
         padding: 0;
-        
     }
 
     .hamburger{
         display: flex;
         width: 2rem;
         height: 2rem;
-        margin-top: 1rem;
+        margin: 3rem;
+        cursor: pointer;
     }
 
     .image-slider{
@@ -189,7 +235,19 @@
         font-size: 2rem;
 
     }
+      
+    .close{
+        cursor: pointer;
+    }
 
+    .dropdown-content{
+        width: 52.5rem;
+        height: 13rem;
+    }
+
+    .dropdown-content a{
+        font-size: 2rem;
+    }
 
 
 }
