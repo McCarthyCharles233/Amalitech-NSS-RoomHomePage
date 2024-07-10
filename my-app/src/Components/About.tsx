@@ -8,7 +8,7 @@ const About: React.FC = () => {
             <span>
                 <img src={image4} alt="image 4" />
             </span>
-            <span>
+            <span className="about-paragraph">
                 <p className="about-heading">about our funiture</p>
                 <p className="about-info">Our multifunctional collection blends design and function to suit your individual taste.
                     Make each room unique, or pick a cohesive theme that best express your interests and what

@@ -74,6 +74,11 @@
     margin-bottom: 20px;
 }
 
+.hero .link:hover{
+    color: #979797;
+    cursor: pointer;
+}
+
 .link span{
     text-transform: uppercase;
     word-spacing: 10px;
@@ -99,9 +104,97 @@
     font-size: 16px;
     padding: 30px;
 }
+.dropdwon, .hamburger{
+    display: none;
+}
+
+@media (max-width: 768px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .slider{
+        display: block;
+    }
+
+    .about img{
+        display: block;
+        width: 52.5em;
+    }
+
+    .nav-links{
+        display: none;
+    }
+
+    .logo{
+        position: absolute;
+        top: 0.5rem;
+        margin-left: 16rem;
+        font-size: 3rem;
+        padding: 0;
+        
+    }
+
+    .hamburger{
+        display: flex;
+        width: 2rem;
+        height: 2rem;
+        margin-top: 1rem;
+    }
+
+    .image-slider{
+        position: relative;
+        z-index: 1;
+        top: 0;
+    }
+
+    .buttons{
+        display: flex;
+        position: absolute;
+        right: 0;
+        top: 29rem;
+        left: 49rem;
+    }
+
+    .hero{
+        position: relative;
+        padding: 5rem;
+        width: 52.5rem;
+    }
+
+    .heading{
+        font-size: 5rem;
+        font-weight: 500;
+    }
+
+    .info{
+        font-size: 2rem;
+    }
+
+    .link span{
+        font-size: 1rem;
+        font-weight: 500;
+        word-spacing: 15px;
+        letter-spacing: 10px;
+
+    }
+
+    .about{
+        width: 52.5rem;
+    }
+
+    .about-heading, .about-info{
+        font-size: 2rem;
+
+    }
 
 
-@media screen, (max-width = 1440px) {
+
+}
+
+@media (min-width: 1200px) {
 
     .logo a{
         font-size: xx-large;
@@ -128,4 +221,76 @@
         width: 400px;
         padding: 100px;
     }
+    .nav-links a{
+        position: relative;
+        display: inline-block;
+        transition: color 0.3s ease;
+    }
+
+    .nav-links a:hover{
+        color: #FFFFFF;
+    }
+
+    .nav-links a::after{
+        content: '';
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+        width: 0%;
+        height: 2px;
+        background-color: #FFFFFF; 
+        transition: width 0.3s ease; 
+      
+    }
+
+    .nav-links a:hover::after {
+        width: 50%;
+    }
 }
+
+/* @media screen, (min-width: 768px) {
+    .image-slider{
+        width: 60%;
+    }
+
+    .hero{
+        padding: 0;
+        margin-top: 60px;
+        
+    }
+
+    .hero .heading{
+        font-size: 40px;
+    }
+
+    .about{
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+    }
+      
+    .about span{
+        display: flex;
+    }
+      
+    .about span:nth-child(1),
+    .about span:nth-child(3) {
+        grid-column: 1 / 2;
+        grid-column: 3 / 4;
+    }
+      
+    .about span:nth-child(2) {
+        grid-column: 2 / 3;
+    }
+
+    .about img{
+        width: 409px;
+    }
+
+    .about .about-heading{
+        position: absolute;
+        left: 0;
+        padding: 10px;
+    }
+    
+} */
