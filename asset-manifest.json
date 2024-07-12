@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Amalitech-NSS-RoomHomePage/static/css/main.5d98e47f.css",
+    "main.js": "/Amalitech-NSS-RoomHomePage/static/js/main.991ed42f.js",
+    "static/js/453.ed3810f9.chunk.js": "/Amalitech-NSS-RoomHomePage/static/js/453.ed3810f9.chunk.js",
+    "static/media/image1.png": "/Amalitech-NSS-RoomHomePage/static/media/image1.e461840fdd0fbc32a5d5.png",
+    "static/media/image3.png": "/Amalitech-NSS-RoomHomePage/static/media/image3.3584628d9afa49a7f371.png",
+    "static/media/image2.png": "/Amalitech-NSS-RoomHomePage/static/media/image2.f03a7d015b3a02ec5a40.png",
+    "static/media/image4.png": "/Amalitech-NSS-RoomHomePage/static/media/image4.5102ecc001fabc0831bd.png",
+    "static/media/image5.png": "/Amalitech-NSS-RoomHomePage/static/media/image5.c9c2898e6bac89996687.png",
+    "index.html": "/Amalitech-NSS-RoomHomePage/index.html",
+    "main.5d98e47f.css.map": "/Amalitech-NSS-RoomHomePage/static/css/main.5d98e47f.css.map",
+    "main.991ed42f.js.map": "/Amalitech-NSS-RoomHomePage/static/js/main.991ed42f.js.map",
+    "453.ed3810f9.chunk.js.map": "/Amalitech-NSS-RoomHomePage/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d98e47f.css",
+    "static/js/main.991ed42f.js"
+  ]
+}
