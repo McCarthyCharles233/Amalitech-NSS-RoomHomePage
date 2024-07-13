@@ -13,51 +13,51 @@ The application is designed to fulfill the following user requirements:
 - Navigate the slider using either their mouse/trackpad or keyboard.
 
 *Deliverables*
-
 - The tech stack for the solution includes TypeScript.
-Web application source code available on GitHub with a well-structured Git flow and a reasonable number of commits.
+- Web application source code available on GitHub with a well-structured Git flow and a reasonable number of commits.
 - CSS is managed using styled-components.
 - A deployed version of the application is hosted on GitHub Pages.
 
 
 *Tech Stack*
-*TypeScript*: For type safety and improved development experience.
-*React*: For building the user interface.
-*styled-components*: For styling the components.
-*GitHub*: For version control and collaboration.
-*GitHub Pages*: For hosting the deployed application.
+- *TypeScript*: For type safety and improved development experience.
+- *React*: For building the user interface.
+- *styled-components*: For styling the components.
+- *GitHub*: For version control and collaboration.
+- *GitHub Pages*: For hosting the deployed application.
 
 
 *Getting Started*
 *Prerequisites*
 Node.js and npm installed on your machine.
 
+
 *Installation*
 *Clone the repository:*
 git clone https://github.com/your-username/Amalitech-NSS-RoomHomePage.git
 
+
 *Navigate to the project directory:*
 cd Amalitech-NSS-RoomHomePage
+
 
 *Install the dependencies:*
 npm install
 
+
 *Running the Application*
 To start the application locally, run:
-
 npm start
-
 This will start the development server and open the application in your default web browser.
+
 
 *Building for Production*
 To create a production build of the application, run:
-
 npm run build
+
 
 *Deployment*
 The application is deployed using GitHub Pages. To deploy the latest build, run:
-
-
 npm run deploy
 
 
