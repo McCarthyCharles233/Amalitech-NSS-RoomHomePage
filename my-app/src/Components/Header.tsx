@@ -18,13 +18,13 @@ const Header: React.FC = () => {
           <img src={hamburger} alt="hamburger menu" />
         </span>
         <span className="logo">
-            <a href="#">room</a>
+          <a href="#">room</a>
         </span>
         <span className="nav-links">
-            <a href="#">home</a>
-            <a href="#">shop</a>
-            <a href="#">about</a>
-            <a href="#">contact</a>
+          <a href="#">home</a>
+          <a href="#">shop</a>
+          <a href="#">about</a>
+          <a href="#">contact</a>
         </span>
 
         {/* Dropdown content with toggle effect */}
@@ -34,10 +34,10 @@ const Header: React.FC = () => {
               <img src={close} alt="close dropdown" />
             </div>
             <div>
-                <a href="#">home</a>
-                <a href="#">shop</a>
-                <a href="#">about</a>
-                <a href="#">contact</a> 
+              <a href="#">home</a>
+              <a href="#">shop</a>
+              <a href="#">about</a>
+              <a href="#">contact</a> 
             </div>
           </div>
         </div>

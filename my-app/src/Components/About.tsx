@@ -6,7 +6,7 @@ const About: React.FC = () => {
     return(
         <div className="about">
             <span>
-                <img src={image4} alt="image 4" />
+                <img src={image4} alt="furniture 1" />
             </span>
             <span className="about-paragraph">
                 <p className="about-heading">about our funiture</p>
@@ -18,7 +18,7 @@ const About: React.FC = () => {
                 </p>
             </span>
             <span>
-                <img src={image5} alt="image 5" />
+                <img src={image5} alt="furniture 2" />
             </span>
         </div>
     );

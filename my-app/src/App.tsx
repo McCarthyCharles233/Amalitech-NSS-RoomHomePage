@@ -8,7 +8,7 @@ import About from './Components/About';
 
 function App() {
   return (
-    <div className="">
+    <div>
       <Header />
       <Slider />
       <About />
